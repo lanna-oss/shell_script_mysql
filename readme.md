@@ -23,6 +23,7 @@ mysql --version
 ./mainquery_index_1.sh > result/mainquery_index_1.txt
 ./mainquery_join_2.sh > result/mainquery_join_2.txt
 ./mainquery_use_two_table_vs_join_3.sh > result/mainquery_use_two_table_vs_join_3.txt
+./mainquery_time_all_two_query_4.sh > result/mainquery_time_all_two_query_4.txt
 ```
 
 ดูผลลัพธ์ที่ folder ชื่อ result
