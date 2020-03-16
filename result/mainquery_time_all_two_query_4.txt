@@ -214,7 +214,7 @@ EXPLAIN data_minute
 | dat_dc_energy_sub_5 | double     | YES  |     | NULL    |                |
 | dat_lastupdate      | datetime   | YES  |     | NULL    |                |
 +---------------------+------------+------+-----+---------+----------------+
-16 rows in set (0.076 sec)
+16 rows in set (0.025 sec)
 
 Bye
 
@@ -242,7 +242,7 @@ Done Row: 7
 Done Row: 8
 Done Row: 9
 Done Row: 10
-Time taken: 19208 milliseconds
+Time taken: 23386 milliseconds
  SELECT FIRST JOIN SECOND Table
 Done Row: 1
 Done Row: 2
@@ -254,4 +254,4 @@ Done Row: 7
 Done Row: 8
 Done Row: 9
 Done Row: 10
-Time taken: 10931 milliseconds
+Time taken: 21754 milliseconds

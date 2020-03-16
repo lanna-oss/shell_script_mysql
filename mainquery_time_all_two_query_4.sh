@@ -36,7 +36,7 @@ done
 echo " SELECT SECOND Table"
 
 QUERY=$(cat <<'END_HEREDOC'
-    SELECT dat_id, site_id, dat_date FROM data_minute WHERE site_id = 1;
+    SELECT * FROM data_minute WHERE site_id = 1;
 END_HEREDOC
 )
 
@@ -53,7 +53,7 @@ ts=$(date +%s%N)
 echo " SELECT FIRST JOIN SECOND Table"
 
 QUERY=$(cat <<'END_HEREDOC'
-    SELECT data_minute.dat_id, site.id, data_minute.dat_date FROM data_minute 
+    SELECT * FROM data_minute 
     LEFT JOIN site ON data_minute.site_id = site.id WHERE site_id = 1;
 END_HEREDOC
 )
